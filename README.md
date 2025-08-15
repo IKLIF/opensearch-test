@@ -102,16 +102,16 @@ GET /search
 
 ```
 opensearch-test/
-├── app/                   # FastAPI приложение
-│   ├── api.py             # API эндпоинты
-│   ├── dependencies.py    # Зависимости
-│   ├── main.py            # Точка входа
-│   ├── opensearch_client.py # Клиент OpenSearch
-│   ├── schemas.py         # Pydantic схемы
-│   └── requirements.txt   # Зависимости Python
-├── test/                  # Тесты
-│   └── t.py               # Тестовый скрипт
-├── docker-compose.yml     # Конфигурация Docker Compose
-├── Dockerfile             # Образ для FastAPI
-└── README.md              # Инструкции
+├── app/                   
+│   ├── api.py             
+│   ├── dependencies.py    
+│   ├── main.py           
+│   ├── opensearch_client.py 
+│   ├── schemas.py         
+│   └── requirements.txt   
+├── test/                  
+│   └── t.py               
+├── docker-compose.yml    
+├── Dockerfile            
+└── README.md            
 ```
