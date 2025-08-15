@@ -1,4 +1,4 @@
-To start
+To start\n
 git clone https://github.com/IKLIF/opensearch-test.git
 cd opensearch-test
 docker-compose up --build
